@@ -2,7 +2,9 @@
 
 MATLAB pipeline that identifies first-order step-response parameters (acceleration start time, initial and steady-state speed, time constant τ) from adaptive cruise control (ACC) road-test data, in order to evaluate whether new eco-friendly tires preserve ACC performance across vehicle and tire types.
 
-Developed for Purdue ENGR 132 by Team 015-19: Aarav Jain, Abir Anajpur, Nathan Lee, Ishaan Kedar Khambaswadkar.
+Developed for Purdue ENGR 132 by Team 015-19: Aarav Jain, Abir Anajpur, Nathan Lee, Ishaan Khambaswadkar.
+
+![CI](https://github.com/<your-username>/<repo-name>/actions/workflows/ci.yml/badge.svg)
 
 ## Problem
 
