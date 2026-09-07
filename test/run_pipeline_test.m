@@ -1,6 +1,7 @@
 % Generates a synthetic first-order step-response dataset with known
 % parameters, runs it through the pipeline, and checks the recovered
 % parameters are close to ground truth. Fails (non-zero exit) if not.
+rehash('toolboxcache');
 
 rng(1); % reproducible noise
 
