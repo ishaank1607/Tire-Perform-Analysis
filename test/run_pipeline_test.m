@@ -1,9 +1,18 @@
 % Generates a synthetic first-order step-response dataset with known
 % parameters, runs it through the pipeline, and checks the recovered
 % parameters are close to ground truth. Fails (non-zero exit) if not.
-rehash('toolboxcache');
+rehash path;
+
+disp(['pwd: ', pwd]);
+disp('--- which (all matches) ---');
+disp(which('cruiseAuto_dataHandling_015_19_jain925', '-all'));
+disp(['nargin: ', num2str(nargin('cruiseAuto_dataHandling_015_19_jain925'))]);
+disp(['nargout: ', num2str(nargout('cruiseAuto_dataHandling_015_19_jain925'))]);
+disp('--- file content as MATLAB sees it on disk ---');
+type('cruiseAuto_dataHandling_015_19_jain925.m');
 
 rng(1); % reproducible noise
+
 
 t = (0:0.1:50)';
 y_L_true = 0; y_H_true = 25; t_s_true = 6; tau_true = 2;
