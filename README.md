@@ -70,6 +70,17 @@ The largest early source of error was a fixed-threshold detector for `t_s` that 
 
 ## Team
 
-Aarav Jain (`jain925@purdue.edu`) · Abir Anajpur (`aanajpur@purdue.edu`) · Nathan Lee (`lee5698@purdue.edu`) · Ishaan Khambaswadkar (`ikhambas@purdue.edu`)
+## Contributions
+
+| File | Primary Author | Debugging / Implementation Support |
+|---|---|---|
+| `cruiseAuto_main_M7_015_19.m` | Team (coordinated) |
+| `cruiseAuto_dataHandling_015_19_jain925.m` | Aarav Jain | Team |
+| `cruiseAuto_timeAccel_015_19_ikhambas.m` | Ishaan Khambaswadkar | Team |
+| `cruiseAuto_speedInitialFinal_015_19_aanajpur.m` | Abir Anajpur | Team |
+| `cruiseAuto_timeConst_015_19_lee5698.m` | Nathan Lee | Team |
+
+Every subfunction's primary author is also noted in that file's header comment block.
+
 
 Purdue ENGR 132, Team 015-19
