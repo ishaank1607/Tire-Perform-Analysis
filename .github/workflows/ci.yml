@@ -9,4 +9,6 @@ jobs:
       - uses: matlab-actions/setup-matlab@v2
       - uses: matlab-actions/run-command@v2
         with:
-          command: run('test/run_pipeline_test.m')
+          command: addpath(pwd); run('test/run_pipeline_test.m')
+
+
