@@ -4,7 +4,7 @@ MATLAB pipeline that identifies first-order step-response parameters (accelerati
 
 Developed for Purdue ENGR 132 by Team 015-19: Aarav Jain, Abir Anajpur, Nathan Lee, Ishaan Khambaswadkar.
 
-![CI](https://github.com/<ishaank1607>/<Tire-Perform-Analysis>/actions/workflows/ci.yml/badge.svg)
+![CI](https://github.com/ishaank1607/Tire-Perform-Analysis/actions/workflows/ci.yml/badge.svg)
 
 ## Problem
 
